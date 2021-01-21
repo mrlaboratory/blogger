@@ -1,0 +1,1 @@
+$("#backer .list-label-widget-content li a").each(function(){$(".breadcrumbs ul li:last-child a").attr("href")===$(this).attr("href")&&$(this).addClass("active")});
