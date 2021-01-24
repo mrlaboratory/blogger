@@ -5,10 +5,10 @@ FB: fb.com/mdmijanurrahaman.mr
 Number : +8801854650673
 */var redirectPage ="https://www.mrlaboratory.info/p/redirect.html?url=";
 var redirectRef = "?ref=https://www.mrlaboratory.info/";
-var redirectLength = document.querySelectorAll(".redirect a").length;
+var redirectLength = document.querySelectorAll(".redirect li a").length;
 for(var i=0;i<redirectLength;i++){
-var redirectselector = document.querySelectorAll(".redirect a")[i];
-var redirectURL = document.querySelectorAll(".redirect a")[i].href;
+var redirectselector = document.querySelectorAll(".redirect li a")[i];
+var redirectURL = document.querySelectorAll(".redirect li a")[i].href;
 modifyRedirectURL =redirectPage+redirectURL+redirectRef;
 redirectselector.href=modifyRedirectURL;
 redirectselector.target="_blank";
