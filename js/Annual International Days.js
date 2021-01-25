@@ -400,7 +400,8 @@ case "11.20": iDay = "International Migrants Day";  break;
 
 default:iDay = "Have a nice day !" ; break;
 }
-var seemorelink ="<a target='_blank' href='https://www.google.com/search?q="+iDay+"'>See More ...</a>";
+var seemorelink ="<a target='_blank' href='https://www.mrlaboratory.info/p/redirect.html?url=https://www.google.com/search?q="+iDay+"'>See More ...</a>";
 
 // $(".center .nowday").text(iDay)
 dragNotify(`${da}-${mo}-${ye}`+" : </br> "+iDay+"</br>"+seemorelink);
+// last update 25.01.2021 by Md Mijanur Rahaman - admin@mrlaboratory.com
