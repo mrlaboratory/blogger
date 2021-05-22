@@ -1,0 +1,59 @@
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '695998387511453',
+      xfbml      : true,
+      version    : 'v9.0'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<div id='fb-root'></div>
+<script type='text/javascript'>
+                var appid = "695998387511453";
+                var url = "data:blog.url";
+                //<![CDATA[
+                $(window).on('load', function () {
+                  (function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s); js.id = id;
+                    js.src = 'https://connect.facebook.net/vi_US/sdk.js#xfbml=1&version=v3.2&appId='+appid+'&autoLogAppEvents=1';
+                    fjs.parentNode.insertBefore(js, fjs);
+                  }(document, 'script', 'facebook-jssdk'));
+                  $('#sendBtn').click(function() {
+                    FB.ui({
+                      method: 'send',
+                      display: 'popup',
+                      mobile_iframe: !0,
+                      link: url,
+                    }, function(response) {})
+                  });
+                  $('#shareBtn').click(function() {
+                    FB.ui({
+                      method: 'share',
+                      display: 'popup',
+                      mobile_iframe: !0,
+                      href: url,
+                    }, function(response) {})
+                  });
+                  $('#feedBtn').click(function() {
+                    FB.ui({
+                      method: 'feed',
+                      display: 'popup',
+                      mobile_iframe: !0,
+                      link: url,
+                    }, function(response) {})
+                  })
+                })
+                //]]></script>
