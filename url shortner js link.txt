@@ -1,0 +1,14 @@
+<!--auto link shortner by mrlaboratory.info start -->
+
+<script type='text/javascript'>
+var setting = {
+pengecualianstatus : true,
+pengecualian : &quot;ok.ru,bdstall.com,fb.com,copyLink(),awesome.top,worldometers.info,diigo.com,alltop.com,slashdot.org,triberr.com,growthhackers.com,whatsapp.com,instagram.com,adfty.biz,dribbble.com,patreon.com,folkd.com,pearltrees,dzone.com,instapaper.com,tracky.com,feedburner.com,gweb.com,public.sitejot.com,mrlaboratory.info,youtube.com,tumblr.com,play.app.goo.gl,stumbleupon.com,blogspot.com,messenger.com,mix.com,digg.com,bufferapp.com,reddit.com,pinterest.com,linkedin.com,youtu.be,m.me,blogger.com,1.bp.blogspot.com,mrlaboratory.com,facebook.com,twitter.com,javascript:;,mailto:&quot;,
+hanyauntukstatus : false,
+hanyauntuk : &quot;mrlaboratory.com&quot;, //use ::withpath for autolink specific path exampe.com/download/::withpath
+path : &quot;#?o=&quot;
+};    
+</script>
+<script src='https://mrlaboratory.github.io/blogger/js/atoplacebyfeednew.js'/>
+<script src='https://www.blogger.com/feeds/583726039139627587/posts/default?alt=json-in-script&amp;max-results=13&amp;callback=showurl'/>
+  <!--/auto link shortner by mrlaboratory.info end -->
