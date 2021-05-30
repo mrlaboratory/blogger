@@ -9,7 +9,7 @@ var altersafePreview = document.querySelector(".safePreview");
 var altersafeDownload = document.querySelector(".safeDownload");
     var temDownLinkn = temDownLink.split('/');
     var temDownLinknn = temDownLinkn[5];	
-    var temDownLinnewLink = "https://drive.google.com/uc?id="+temDownLinknn+"&export=download#mrlaboratory";
+    var temDownLinnewLink = "https://drive.google.com/uc?id="+temDownLinknn+"&export=download";
 var modifytempDemoLink ="https://template.mrlaboratory.info/p/template.html?u="+tempDemoLink;
 var modifytemDownLink ="https://template.mrlaboratory.info/p/download.html?t="+temDownLinnewLink;
 demoTemplateU.href=modifytempDemoLink;
