@@ -7,11 +7,8 @@ var tempcheck4MR = document.getElementById("tempcheckLink4");
 var tempcheck5MR = document.getElementById("tempcheckLink5");
 var altersafePreview = document.querySelector(".safePreview");
 var altersafeDownload = document.querySelector(".safeDownload");
-    var temDownLinkn = temDownLink.split('/');
-    var temDownLinknn = temDownLinkn[5];	
-    var temDownLinnewLink = "https://drive.google.com/uc?id="+temDownLinknn+"&export=download";
 var modifytempDemoLink ="https://template.mrlaboratory.info/p/template.html?u="+tempDemoLink;
-var modifytemDownLink ="https://template.mrlaboratory.info/p/download.html?t="+temDownLinnewLink;
+var modifytemDownLink ="https://template.mrlaboratory.info/p/download.html?t="+temDownLink;
 demoTemplateU.href=modifytempDemoLink;
 downloadTemplateU.href=modifytemDownLink;
 var tempMobileF ="https://search.google.com/test/mobile-friendly?url="+tempDemoLink;
@@ -26,8 +23,6 @@ tempcheck4MR.href=tempGTest;
 tempcheck5MR.href=tempAllResponsive;
 altersafePreview.href=tempDemoLink;
 altersafeDownload.href=temDownLink;
-
-
 
 
 
