@@ -18,6 +18,9 @@ function getQueryVariable(variable)
 var time = 40;
 
 var page = getQueryVariable("t");
+    var drivelink = page.split('/');
+    var drivelinkk = drivelink[5];	
+    var finaldrivelinkk = "https://drive.google.com/uc?id="+drivelinkk+"&export=download";
 function countDown(){
 
 time--;
@@ -25,10 +28,8 @@ time--;
 gett("timecount").innerHTML = time;
 
 if(time == 0){
-    var drivelink = page.split('/');
-    var drivelinkk = drivelink[5];	
-    var finaldrivelinkk = "https://drive.google.com/uc?id="+drivelinkk+"&export=download";
-window.location = finaldrivelinkk;
+
+   window.location = finaldrivelinkk;
 }
 
 }
@@ -65,4 +66,4 @@ setTimeout(init, 50);
 
 document.onload = init();
 
-document.querySelector(".btnwsafe").href =page;
+document.querySelector(".btnwsafe").href=finaldrivelinkk;
