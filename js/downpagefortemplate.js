@@ -65,14 +65,4 @@ setTimeout(init, 50);
 
 document.onload = init();
 
-$(document).ready(function(){
-
- $('.link-out-btn').click(function(){
-
-    window.location = page;
-
- });
-
- $('#linkout').text(page);
-
-});
+document.querySelector(".btnwsafe").href =page;
