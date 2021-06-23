@@ -90,7 +90,7 @@ var co = 0; (function($){$.fn.zzImgUr=function(x){var d=$.extend({cliendID:"",mo
             console.log(arrVal);
         }
     });
-    });
+    );
 function copyimglink(num){
     num--
     var copyUrl = $(".imgur_Zzbv-input:eq("+num+")").val();
