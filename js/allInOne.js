@@ -1,6 +1,6 @@
 // Disable Copy Text
-if (typeof document.onselectstart!=&quot;undefined&quot; ) { document.onselectstart=new Function (&quot;return false&quot; );
-} else { document.onmousedown=new Function (&quot;return false&quot; ); document.onmouseup=new Function (&quot;return true&quot; );
+if (typeof document.onselectstart!="undefined") { document.onselectstart=new Function ("return false" );
+} else { document.onmousedown=new Function ("return false"); document.onmouseup=new Function ("return true");
 }
 
 
