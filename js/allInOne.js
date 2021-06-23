@@ -1,3 +1,27 @@
+/*
+Redirector for mrlaboratory.info
+Code Develop : Md Mijanur Rahaman;
+FB: fb.com/mdmijanurrahaman.mr
+Number : +8801854650673
+*/
+var redirectPage ="https://www.mrlaboratory.info/p/redirect.html?url=";
+var redirectRef = "?ref=https://www.mrlaboratory.info/";
+var redirectLength = document.querySelectorAll(".redirect").length;
+for(var i=0;i<redirectLength;i++){
+var redirectselector = document.querySelectorAll(".redirect")[i];
+var redirectURL = document.querySelectorAll(".redirect")[i].href;
+modifyRedirectURL =redirectPage+redirectURL+redirectRef;
+redirectselector.href=modifyRedirectURL;
+redirectselector.target="_blank";
+redirectselector.title="MR Laboratory to "+redirectURL;
+}/*
+Redirector for mrlaboratory.info
+Code Develop : Md Mijanur Rahaman;
+FB: fb.com/mdmijanurrahaman.mr
+Number : +8801854650673
+*/
+// update 24.01.2021 by Md Mijanur Rahaman - admin@mrlaboratory.com
+
 // Disable Copy Text
 if (typeof document.onselectstart!="undefined") { document.onselectstart=new Function ("return false" );
 } else { document.onmousedown=new Function ("return false"); document.onmouseup=new Function ("return true");
@@ -90,7 +114,7 @@ var co = 0; (function($){$.fn.zzImgUr=function(x){var d=$.extend({cliendID:"",mo
             console.log(arrVal);
         }
     });
-    );
+
 function copyimglink(num){
     num--
     var copyUrl = $(".imgur_Zzbv-input:eq("+num+")").val();
