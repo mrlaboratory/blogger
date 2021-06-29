@@ -1,0 +1,143 @@
+<!-- POst reaction  -->
+
+<div class='post-action'>
+<div class='reaction-hover'>
+<span class='reaction-label' expr:data-post-id='data:post.id'><i class='far fa-heart'/>
+<span id='totallike'/> Reaction</span>
+<div class='post-reaction'>
+<button class='like-button' expr:data-post-id='data:post.id' type='button'><label class='camxucsb'>Like</label><label class='total'/><span/><span/><span/><span/><span/><span/><span/><span/></button>
+<button class='love-button' expr:data-post-id='data:post.id' type='button'><label class='camxucsb'>Love</label><label class='total'/><span/><span/><span/><span/><span/><span/><span/><span/></button>
+<button class='haha-button' expr:data-post-id='data:post.id' type='button'><label class='camxucsb'>Haha</label><label class='total'/><span/><span/><span/><span/><span/><span/><span/><span/></button>
+<button class='wow-button' expr:data-post-id='data:post.id' type='button'><label class='camxucsb'>Wow</label><label class='total'/><span/><span/><span/><span/><span/><span/><span/><span/></button>
+<button class='sad-button' expr:data-post-id='data:post.id' type='button'><label class='camxucsb'>Sad</label><label class='total'/><span/><span/><span/><span/><span/><span/><span/><span/></button>
+<button class='angry-button' expr:data-post-id='data:post.id' type='button'><label class='camxucsb'>Angry</label><label class='total'>0</label><span/><span/><span/><span/><span/><span/><span/><span/></button>
+</div>
+</div>
+
+<span class='comments-label'><i class='far fa-comment'/>
+ <data:post.numComments/> Comment</span>
+<span class='emoticon-label'><i class='far fa-smile'/><mobi> Emoticon</mobi></span>
+</div>
+
+<style type='text/css'>/*<![CDATA[*/
+                .reaction-hover .reaction-label{display:inline-block;padding:4px 10px;margin-bottom:0;margin-right:3px;font-size:14px;font-weight:400;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;cursor:pointer;background-image:none;border:1px solid transparent;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;color:#000;background-color:var(--greyLight-1);border-color:#ddd;outline:0}
+                .reaction-hover .reaction-label::before{content:".";opacity:0;display:block;width:63px;height:10px;position:absolute;top:-10px;left:0}
+                .reaction-hover:hover .reaction-label{color:#a70e1a}
+                button[data-post-id]{outline:none}
+                button[data-post-id]:hover .camxucsb{visibility:visible;opacity:1;-webkit-transition:all 0;-o-transition:all 0;-moz-transition:all 0;transition:all 0}
+                button[data-post-id] .camxucsb{position:absolute;top:-30px;width:100%;left:50%;-webkit-transform:translateX(-50%);-moz-transform:translateX(-50%);-ms-transform:translateX(-50%);-o-transform:translateX(-50%);transform:translateX(-50%);background:rgba(0,0,0,0.7);padding:3px 0 4px;-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;font-size:10px;font-weight:700;color:#fff;visibility:hidden;opacity:0}
+                .reaction-hover:hover .post-reaction{-webkit-transform:translate(0,0);-moz-transform:translate(0,0);-ms-transform:translate(0,0);-o-transform:translate(0,0);transform:translate(0,0);visibility:visible;opacity:1}
+                .post-reaction{background-color:#fff;border:1px solid #ebebeb;-webkit-box-shadow:0 10px 29px -14px rgba(168,165,168,0.7);-moz-box-shadow:0 10px 29px -14px rgba(168,165,168,0.7);box-shadow:0 10px 29px -14px rgba(168,165,168,0.7);-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;top:-60px;left:-5px;position:absolute;width:auto;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-moz-box-orient:horizontal;-moz-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:nowrap;-ms-flex-wrap:nowrap;flex-wrap:nowrap;z-index:1;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:9px 5px;-webkit-transform:translate(0,15px);-moz-transform:translate(0,15px);-ms-transform:translate(0,15px);-o-transform:translate(0,15px);transform:translate(0,15px);visibility:hidden;opacity:0;-webkit-transition-property:-webkit-transform;transition-property:-webkit-transform;-o-transition-property:-o-transform;-moz-transition-property:transform,-moz-transform;transition-property:transform;transition-property:transform,-webkit-transform,-moz-transform,-o-transform;-webkit-transition-duration:.3s;-moz-transition-duration:.3s;-o-transition-duration:.3s;transition-duration:.3s;-webkit-transition-timing-function:cubic-bezier(0,0,0,1.225);-moz-transition-timing-function:cubic-bezier(0,0,0,1.225);-o-transition-timing-function:cubic-bezier(0,0,0,1.225);transition-timing-function:cubic-bezier(0,0,0,1.225)}
+                .reaction-hover{cursor:pointer;display:inline-block;position:relative}
+                .reaction-hover:hover{color:#222;-webkit-transition:color .2s;-o-transition:color .2s;-moz-transition:color .2s;transition:color .2s}
+                button[data-post-id]:hover{transform:scale(1.3);transform-origin:bottom}
+                button[data-post-id]{margin-left:5px;margin-right:5px;display:inline-block;border:0;position:relative;cursor:pointer;width:40px;height:40px;background-position:-13px -13px!important;-webkit-background-size:66px 66px;-moz-background-size:66px;-o-background-size:66px;background-size:66px;filter:grayscale(100%);transition:all .3s cubic-bezier(0.175,0.885,0.32,1.275)}
+                .like-button{background:url(https://1.bp.blogspot.com/--iK0w7x3JVU/XuowHQSgXcI/AAAAAAAAAUA/Bf06rEgehU8fEXMkHGgpYuamtiLLE81WQCLcBGAsYHQ/s320/e4299734559659.56d57de04bda4.gif) no-repeat}
+                .like-button.like{filter:grayscale(0)}
+                .like-button.like .total{background:#548dff}
+                .love-button{background:url(https://1.bp.blogspot.com/-nqhtuv_Tz50/Xuov_twM-gI/AAAAAAAAAT8/nrFlCEOA6KUXneOYmU5drSAsVlSet4TwQCLcBGAsYHQ/s320/65ea2034559659.56d57de06cea2.gif) no-repeat}
+                .love-button.love{filter:grayscale(0)}
+                .love-button.love .total{background:#f55065}
+                .haha-button{background:url(https://1.bp.blogspot.com/-jBy6YG-MN5M/XuovyzjvYHI/AAAAAAAAATw/WNJbxdBVTIQtIVsrJE9sKDZ9-szQJ3UFwCLcBGAsYHQ/s320/35c9bf34559659.56d57de0eb467.gif) no-repeat}
+                .haha-button.haha{filter:grayscale(0)}
+                .haha-button.haha .total{background:#ffda6a}
+                .wow-button{background:url(https://1.bp.blogspot.com/-h1yD0Z3Lw6U/Xuovq8AyzrI/AAAAAAAAATo/Xwr7Gogo7ks2_hchYaHr493fyDPlkzJmQCLcBGAsYHQ/s320/6105c734559659.56d59c54f0d05.gif) no-repeat}
+                .wow-button.wow{filter:grayscale(0)}
+                .wow-button.wow .total{background:#ffda6a}
+                .sad-button{background:url(https://1.bp.blogspot.com/-cWLh09qpN9c/Xuov5LQSMKI/AAAAAAAAAT0/kWHLgFbRLqQs6f1i3aL6rE_fiJ-jCKrHwCLcBGAsYHQ/s320/3eee1d34559659.56d59de621daa.gif) no-repeat}
+                .sad-button.sad{filter:grayscale(0)}
+                .sad-button.sad .total{background:#ffda6a}
+                .angry-button{background:url(https://1.bp.blogspot.com/-pbt6pJfzGIk/Xuovhc65yjI/AAAAAAAAATk/yxwiEffEbl4qPYJIvLyI7g9EM5V5KMVcACLcBGAsYHQ/s320/e66e6e34559659.56d57de095aee.gif) no-repeat}
+                .angry-button.angry{filter:grayscale(0)}
+                .angry-button.angry .total{background:#f65a65}
+                .post-reaction .total{font-size:8px!important;font-family:Arial,Helvetica,sans-serif!important;color:#fff!important;background:#a9a9a9;display:inline-block!important;font-weight:bold!important;padding:0 4px!important;border-radius:50px!important;box-sizing:border-box!important;position:absolute!important;line-height:13px!important;max-width:100%!important;width:unset!important;overflow:hidden!important;top:-1px!important;right:-2.7px!important;text-decoration:none!important;text-overflow:ellipsis!important;-webkit-user-select:none!important}
+                .comments-label{display:inline-block;padding:4px 10px;margin-bottom:0;margin-right:3px;font-size:14px;font-weight:normal;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;color:#000;background-color:transparent;border-color:#ddd;outline:0}
+                .comments-label:hover{color:#ec516c}
+                .emoticon-label:hover{color:#ec516c}
+                .emoticon-label{float:right;display:inline-block;padding:4px 10px;margin-bottom:0;margin-right:3px;font-size:14px;font-weight:normal;line-height:1.42857143;text-align:center;white-space:nowrap;vertical-align:middle;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-image:none;border:1px solid transparent;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;color:#000;background-color:var(--greyLight-1);border-color:#ddd;outline:0}
+                .fb-emoji{display:inline-block;width:20px;height:20px;background-image:url(https://lh3.ggpht.com/-hm4wPvgRtWE/XBvKs1oWkOI/AAAAAAAAIbs/RrpVqOObQMYsTr__PMD8et26UknYt8KXACLcBGAs/h0/hung1001-emoji-20.png);background-repeat:no-repeat;-webkit-background-size:20px 20px;-moz-background-size:20px;-o-background-size:20px;background-size:20px;position:relative;vertical-align:-3px}
+                .list-emoji{text-align:center}
+                .list-emoji .item{width:23px;height:23px;text-align:center;margin: 5.1px;display:inline-block}
+                .list-emoji .fb-emoji{cursor:pointer;display:block;margin:0}
+                .list-emoji .short-code{display:none}
+                .img-0{background-position:0 0}
+                .img-20{background-position:0 -20px}
+                .img-40{background-position:0 -40px}
+                .img-60{background-position:0 -60px}
+                .img-80{background-position:0 -80px}
+                .img-100{background-position:0 -100px}
+                .img-120{background-position:0 -120px}
+                .img-140{background-position:0 -140px}
+                .img-160{background-position:0 -160px}
+                .img-180{background-position:0 -180px}
+                .img-200{background-position:0 -200px}
+                .img-220{background-position:0 -220px}
+                .img-240{background-position:0 -240px}
+                .img-260{background-position:0 -260px}
+                .img-280{background-position:0 -280px}
+                .img-300{background-position:0 -300px}
+                .img-320{background-position:0 -320px}
+                .img-340{background-position:0 -340px}
+                .img-360{background-position:0 -360px}
+                .img-380{background-position:0 -380px}
+                .img-400{background-position:0 -400px}
+                .img-420{background-position:0 -420px}
+                .img-440{background-position:0 -440px}
+                .img-460{background-position:0 -460px}
+                .img-480{background-position:0 -480px}
+                .img-500{background-position:0 -500px}
+                .img-520{background-position:0 -520px}
+                .img-540{background-position:0 -540px}
+                .img-560{background-position:0 -560px}
+                .img-580{background-position:0 -580px}
+                .img-600{background-position:0 -600px}
+                .img-620{background-position:0 -620px}
+                .img-640{background-position:0 -640px}
+                .img-660{background-position:0 -660px}
+                .img-680{background-position:0 -680px}
+                .img-700{background-position:0 -700px}
+                .img-720{background-position:0 -720px}
+                .img-740{background-position:0 -740px}
+                .img-760{background-position:0 -760px}
+                .img-780{background-position:0 -780px}
+                .img-800{background-position:0 -800px}
+                .img-820{background-position:0 -820px}
+                .img-840{background-position:0 -840px}
+                .img-860{background-position:0 -860px}
+                .img-880{background-position:0 -880px}
+                .img-900{background-position:0 -900px}
+                .img-920{background-position:0 -920px}
+                .img-940{background-position:0 -940px}
+                .img-960{background-position:0 -960px}
+                .img-980{background-position:0 -980px}
+                .img-1000{background-position:0 -1000px}
+                .img-1020{background-position:0 -1020px}
+                .img-1040{background-position:0 -1040px}
+                .img-1060{background-position:0 -1060px}
+                .img-1080{background-position:0 -1080px}
+                .img-1100{background-position:0 -1100px}
+                .img-1120{background-position:0 -1120px}
+                .img-1140{background-position:0 -1140px}
+                .img-1160{background-position:0 -1160px}
+                .img-1180{background-position:0 -1180px}
+                .img-1200{background-position:0 -1200px}
+                .img-1220{background-position:0 -1220px}
+                .img-1240{background-position:0 -1240px}
+                .img-1260{background-position:0 -1260px}
+                .img-1280{background-position:0 -1280px}
+                .img-1300{background-position:0 -1300px}
+                .img-1320{background-position:0 -1320px}
+                .img-1340{background-position:0 -1340px}
+                .img-1360{background-position:0 -1360px}
+                .img-1380{background-position:0 -1380px}
+                .img-1400{background-position:0 -1400px}
+                .img-1420{background-position:0 -1420px}
+                .msg-alert{position:fixed;bottom:20px;left:20px;background:#333;z-index:1000;color:#fff;font-family:Helvetica,Arial,sans-serif;font-size:15px;padding:8px 12px;border-radius:4px}
+                .khung-icon{margin:0 0 15px 0}
+                .post-action{padding:10px 0}
+                /*]]>*/
+              </style>    
+
+<script src='https://mrlaboratory.github.io/blogger/js/firebase.min.js' type='text/javascript'/> 
+<script src='https://mrlaboratory.github.io/blogger/js/listEmotion.min.js' type='text/javascript'/>
+<script src='https://mrlaboratory.github.io/blogger/js/classActive.js' type='text/javascript'/>
