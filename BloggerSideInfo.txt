@@ -1,0 +1,57 @@
+<div id='mr-design'>
+
+<div id='mr-design-col-1'>
+<div class='mr-design-facebook'>
+<i class="fa fa-eye mr-design-icon"></i><a> <script type='text/javascript'>document.write(Math.floor((Math.random()*9876543210)+9876543210));</script></a><p>View</p>
+</div>
+</div>
+
+<div id='mr-design-col-1'>
+<div class='mr-design-post'>
+<i class="fa fa-file-text mr-design-icon"></i><span><script style="text/javascript">function showpostcount(t){document.write(parseInt(t.feed.openSearch$totalResults.$t,10))}</script><script src="/feeds/posts/default?alt=json-in-script&callback=showpostcount"></script></span><p><a href="/search?max-results=15" target="_blank">Posts</a></p>
+</div>
+</div>
+
+<div id='mr-design-col-1'>
+<div class='mr-design-comments'>
+<i class="fa fa-comments mr-design-icon"></i><span><script style="text/javascript">function numberOfComments(e){document.write(e.feed.openSearch$totalResults.$t)}</script><script src="/feeds/comments/default?alt=json-in-script&callback=numberOfComments"></script></span><p><a href="/p/comment.html" target="_blank">comments</a></p>
+</div>
+</div>
+
+<div id='mr-design-col-1'>
+<div class='mr-design-gioi-thieu'>
+<a href="https://www.facebook.com/mdmijanurrahaman.mr" target="_blank"><img alt="Md Mijanur Rahaman" src="https://i.imgur.com/YqXFE2b.jpg" class="fa fa-heart mr-design-icon" /><p>Admin</p></a>
+</div>
+</div>
+
+<div id='mr-design-col-1'>
+<div class='mr-design-lienhe'>
+<a href="/p/contact.html" target="_blank"><i class="fa fa-envelope mr-design-icon"></i><p>Contact</p></a>
+</div>
+</div>
+
+<div id='mr-design-col-1'>
+<div class='mr-design-dieu-khoan'>
+<a href="/p/policy.html" target="_blank"><i class="fa fa-list-ol mr-design-icon"></i><p>Policy</p></a>
+</div>
+</div>
+
+<div id='mr-design-col-1'>
+<div class='mr-design-sitemap'>
+<a href="/p/sitemap.html" target="_blank"><i class="fa fa-sitemap mr-design-icon"></i><p>Site Map</p></a>
+</div>
+</div>
+
+<div id='mr-design-col-1'>
+<div class='mr-design-sub'>
+<a href="https://www.blogger.com/follow.g?blogID=3245545883165649821" target="_blank"><i class="fa fa-rss mr-design-icon"></i><p>Follow</p></a>
+</div>
+</div>
+
+<div id='mr-design-col-1'>
+<div class='mr-design-admin'>
+<a href="https://mrlaboratory.blogspot.com/" target="_blank"><i class="fa fa-user mr-design-icon"></i><p>Information</p></a>
+</div>
+</div>
+
+</div>
