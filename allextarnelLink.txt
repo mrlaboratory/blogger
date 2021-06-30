@@ -1,0 +1,150 @@
+<li class='ripple'>
+<a href='https://www.facebook.com/mrlaboratory' target='_blank' title='MR Laboratory Facebook Page'>
+<span class='label-name'>Facebook Page</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+
+<li class='ripple'>
+  <a href='https://www.facebook.com/groups/mrlaboratory' target='_blank' title='MR Laboratory Facebook Group'>
+<span class='label-name'>Facebook Group</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+
+<li class='ripple'>
+  <a href='https://www.facebook.com/mdmijanurrahaman.mr' target='_blank' title='Admin&apos;s Facebook page'>
+<span class='label-name'>Admin&#39;s Facebook page</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+  <li class='ripple'>
+  <a href='https://www.messenger.com/t/1231097853635264' target='_blank' title='Messenger Group'>
+<span class='label-name'>Messenger Group</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+
+    <li class='ripple'>
+  <a href='https://www.youtube.com/mrlaboratorypro' target='_blank' title='Youtube Video'>
+<span class='label-name'>Youtube</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+  
+     <li class='ripple'>
+  <a href='https://twitter.com/mrlaboratory2' target='_blank' title='Twitter MR Laboratory'>
+<span class='label-name'>Twitter</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+    <li class='ripple'>
+  <a href='https://linkedin.com/in/mrlaboratory' target='_blank' title='Linkedin'>
+<span class='label-name'>Linkedin</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+  
+     <li class='ripple'>
+  <a href='https://mix.com/mrlaboratory' target='_blank' title='Mix'>
+<span class='label-name'>Mix</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+  
+       <li class='ripple'>
+  <a href='https://www.pinterest.com/mrlaboratory/' target='_blank' title='Pinterest'>
+<span class='label-name'>Pinterest</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+         <li class='ripple'>
+  <a href='https://mrlaboratory.tumblr.com/' target='_blank' title='Tumblr'>
+<span class='label-name'>Tumblr</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+  
+           <li class='ripple'>
+  <a href='http://www.pearltrees.com/mrlaboratory' target='_blank' title='Pearltrees'>
+<span class='label-name'>Pearltrees</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+  
+  
+     <li class='ripple'>
+  <a href='https://www.instapaper.com/p/mrlaboratory' target='_blank' title='Instapaper'>
+<span class='label-name'>Instapaper</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+  
+   <li class='ripple'>
+  <a href='https://ok.ru/mr.laboratory' target='_blank' title='ok'>
+<span class='label-name'>OK</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+  
+     <li class='ripple'>
+  <a href='https://www.instagram.com/mrlaboratorypro/' target='_blank' title='Instagram'>
+<span class='label-name'>Instagram</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+     <li class='ripple'>
+  <a href='https://alltop.com/my/mrlaboratory' target='_blank' title='Alltop'>
+<span class='label-name'>Alltop</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+  
+     <li class='ripple'>
+  <a href='https://about.me/mrlaboratory' target='_blank' title='About me'>
+<span class='label-name'>About me</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+  
+   <li class='ripple'>
+  <a href='https://www.google.com/search?q=mr+laboratory' target='_blank' title='Google'>
+<span class='label-name'>Google</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+  
+    <li class='ripple'>
+  <a href='https://news.google.com/publications/CAAqBwgKMKiumwsw7LizAw?hl' target='_blank' title='Google News'>
+<span class='label-name'>Google News</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+      <li class='ripple'>
+  <a href='https://mrlaboratory.quora.com/' target='_blank' title='Quora Page'>
+<span class='label-name'>Quora Page</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
+     <li class='ripple'>
+  <a href='https://www.quora.com/profile/MR-Laboratory-1' target='_blank' title='Quora'>
+<span class='label-name'>Quora</span>
+<span class='label-count'>1</span>
+</a>
+</li>
+  
