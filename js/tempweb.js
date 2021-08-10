@@ -15,7 +15,7 @@ downloadTemplateU.href=modifytemDownLink;
 var tempMobileF ="https://search.google.com/test/mobile-friendly?url="+tempDemoLink;
 var tempspeed ="https://developers.google.com/speed/pagespeed/insights/?url="+tempDemoLink;
 var tempMResponsive ="https://www.responsinator.com/?url="+tempDemoLink;
-var tempGTest ="https://search.google.com/structured-data/testing-tool/u/0/#url="+tempDemoLink;
+var tempGTest ="https://search.google.com/test/rich-results?url="+tempDemoLink;
 var tempAllResponsive ="https://responsivedesignchecker.com/checker.php?url="+tempDemoLink;
 var tempmockup6 ="https://mockup.mrlaboratory.info/?url="+tempDemoLink;
 tempcheck1MR.href=tempMobileF;
