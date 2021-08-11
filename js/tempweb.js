@@ -27,7 +27,7 @@ tempcheck4MR.href=tempGTest;
 tempcheck5MR.href=tempAllResponsive;
 tempcheck6MR.href=tempmockup6;
 tempcheck7MR.href=tempschema7;
-altersafePreview.href=tempmockup6;
+altersafePreview.href=tempDemoLink;
 altersafeDownload.href=temDownLink;
 
 
