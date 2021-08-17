@@ -9,6 +9,15 @@ var tempcheck6MR = document.getElementById("tempcheckLink6");
 var tempcheck7MR = document.getElementById("tempcheckLink7");
 var altersafePreview = document.querySelector(".safePreview");
 var altersafeDownload = document.querySelector(".safeDownload");
+
+if(temDownLink.indexOf("https://drive.google.com/file/d/") != -1){
+var drivelink = temDownLink.split('/');
+    var drivelinkk = drivelink[5];	
+    var temDownLink = "https://drive.google.com/uc?id="+drivelinkk+"&export=download";
+}else{
+var temDownLink =temDownLink;
+}
+
 var modifytempDemoLink ="https://template.mrlaboratory.info/p/template.html?u="+tempDemoLink;
 var modifytemDownLink ="https://template.mrlaboratory.info/p/download.html?t="+convertToHex(temDownLink);
 demoTemplateU.href=modifytempDemoLink;
