@@ -18,9 +18,16 @@ function getQueryVariable(variable)
 var time = 40;
 
 var page = getQueryVariable("t");
-    var drivelink = page.split('/');
+
+if(page.indexOf("https://drive.google.com/file/d/") != -1){
+var drivelink = page.split('/');
     var drivelinkk = drivelink[5];	
     var finaldrivelinkk = "https://drive.google.com/uc?id="+drivelinkk+"&export=download";
+}else{
+var finaldrivelinkk =page;
+}
+
+    
 function countDown(){
 
 time--;
