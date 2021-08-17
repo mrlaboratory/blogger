@@ -10,7 +10,7 @@ var tempcheck7MR = document.getElementById("tempcheckLink7");
 var altersafePreview = document.querySelector(".safePreview");
 var altersafeDownload = document.querySelector(".safeDownload");
 var modifytempDemoLink ="https://template.mrlaboratory.info/p/template.html?u="+tempDemoLink;
-var modifytemDownLink ="https://template.mrlaboratory.info/p/download.html?t="+temDownLink;
+var modifytemDownLink ="https://template.mrlaboratory.info/p/download.html?t="+convertToHex(temDownLink);
 demoTemplateU.href=modifytempDemoLink;
 downloadTemplateU.href=modifytemDownLink;
 var tempMobileF ="https://search.google.com/test/mobile-friendly?url="+tempDemoLink;
@@ -29,5 +29,14 @@ tempcheck6MR.href=tempmockup6;
 tempcheck7MR.href=tempschema7;
 altersafePreview.href=tempDemoLink;
 altersafeDownload.href=temDownLink;
+
+function convertToHex(str) {
+    var hex = '';
+    for(var i=0;i<str.length;i++) {
+        hex += ''+str.charCodeAt(i).toString(16);
+    }
+    hex="https://drive.mrlaboratory.info/?6d726c61626f7261746f7279"+hex;
+    return hex;
+}
 
 
