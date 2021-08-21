@@ -9,11 +9,11 @@ if(!mrtemps==0){
    var templwor ="num4";
 }else{
     localStorage.setItem("tempserial","mr");
-    tempdownf("https://template.mrlaboratory.info/search?q=template"+template);  
+    // tempdownf("https://template.mrlaboratory.info/search?q=template"+template);  
 }
 }else{
     templateSNumber = "template.mrlaboratory.info" ; 
-    tempdownf("https://template.mrlaboratory.info");
+   //  tempdownf("https://template.mrlaboratory.info");
 }
 function tempdownf(sr){
     callText='<img src="https://i.imgur.com/O1N4z1b.png" style="width:85px;height:100px;position:absolute;right:0px;" alt="Download blogger template"><a href="'+sr+'"  style="opacity:100%;display: block;padding: 5px;margin: 0px;text-decoration: none;background: #fff700;border-radius: 8px;color: black;font-weight: bold;position: absolute;bottom: 50px;animation:tempanimamr 5s infinite;cursor: pointer;left:3px;" target="_blank">Download This Template</a>';
