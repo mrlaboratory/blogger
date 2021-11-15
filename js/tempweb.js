@@ -18,7 +18,7 @@ var drivelink = temDownLink.split('/');
 var temDownLink =temDownLink;
 }
 
-var modifytempDemoLink ="https://template.mrlaboratory.info/p/template.html?u="+tempDemoLink;
+var modifytempDemoLink ="https://template.mrlaboratory.info/p/template.html#?u="+tempDemoLink;
 var modifytemDownLink ="https://template.mrlaboratory.info/p/download.html#?t="+convertToHex(temDownLink);
 demoTemplateU.href=modifytempDemoLink;
 downloadTemplateU.href=modifytemDownLink;
