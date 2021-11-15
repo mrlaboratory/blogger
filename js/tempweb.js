@@ -19,7 +19,7 @@ var temDownLink =temDownLink;
 }
 
 var modifytempDemoLink ="https://template.mrlaboratory.info/p/template.html?u="+tempDemoLink;
-var modifytemDownLink ="https://template.mrlaboratory.info/p/download.html?t="+convertToHex(temDownLink);
+var modifytemDownLink ="https://template.mrlaboratory.info/p/download.html#?t="+convertToHex(temDownLink);
 demoTemplateU.href=modifytempDemoLink;
 downloadTemplateU.href=modifytemDownLink;
 var tempMobileF ="https://search.google.com/test/mobile-friendly?url="+tempDemoLink;
