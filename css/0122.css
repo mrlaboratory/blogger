@@ -4,3 +4,9 @@
 }.night .paragraphclass a {
     background: var(--bg1);
 }
+.widget-content.team ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
