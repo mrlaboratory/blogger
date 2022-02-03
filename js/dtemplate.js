@@ -2,7 +2,7 @@ var weburl=window.location.href;
 var templateSNumber;
 if(weburl.indexOf("https://mrlaboratory") != -1){
     templateSNumber = weburl.match(/[0-9]+/);
-    tempdownf("https://www.mrlaboratory.info/search?q=template"+templateSNumber);
+    tempdownf("https://template.mrlaboratory.info/search?q=template"+templateSNumber);
 }else if(typeof(template) !== 'undefined'){
     var mrtemps = window.localStorage.getItem("tempserial")?window.localStorage.getItem("tempserial"):"";
 if(!mrtemps==0){
