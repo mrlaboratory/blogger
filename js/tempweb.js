@@ -44,7 +44,7 @@ function convertToHex(str) {
     for(var i=0;i<str.length;i++) {
         hex += ''+str.charCodeAt(i).toString(16);
     }
-    hex="https://www.mrlaboratory.info/p/d.html#?6d726c61626f7261746f7279"+hex;
+    hex="https://template.mrlaboratory.info/p/d2.html#?6d726c61626f7261746f7279"+hex;
     return hex;
 }
 
